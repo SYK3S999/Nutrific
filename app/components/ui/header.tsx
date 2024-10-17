@@ -8,7 +8,7 @@ const Header = () => {
     <header className="flex justify-between items-center w-full px-4 lg:px-6 h-16 bg-green-50 shadow-sm transition-all duration-300 ease-in-out sticky top-0 z-50">
       <a className="flex items-center justify-center animate-bounce-once" href="#">
         <Carrot className="h-8 w-8 text-green-600 transition-transform duration-500 hover:scale-110" />
-        <span className="ml-2 text-xl font-bold text-green-700 transition-all duration-500">NutriVie</span>
+        <span className="ml-2 text-xl font-bold text-green-700 transition-all duration-500">Nutriffics</span>
       </a>
 
       {/* Hamburger icon for mobile */}

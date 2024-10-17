@@ -56,11 +56,11 @@
     @apply border-border;
   }
   
-  body {
-    @apply bg-background text-foreground;
-    overflow-x: hidden; /* Hides horizontal scroll */
+  html, body {
+    width: 100%;
+    overflow-x: hidden; /* To prevent any horizontal scroll */
   }
-}
+  }
 
 /* Ripple Effect */
 .ripple {
@@ -102,6 +102,9 @@ html {
   100% {
     transform: scale(1);
   }
+}
+.shadow-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .bounce-in {
@@ -178,7 +181,13 @@ header {
     align-items: flex-start; /* Align items to the left */
     height: auto; /* Allow height to adjust based on content */
   }
-
+  .container {
+    max-width: none; /* Ensures the container takes the full width */
+    width: 100%;     /* Full width */
+    padding-left: 0; /* Remove left padding */
+    padding-right: 0; /* Remove right padding */
+    }
+  
   /* Navigation */
   nav {
     flex-direction: column;
@@ -191,10 +200,7 @@ header {
   }
 
   /* General container adjustments */
-  .container {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+
 
   /* Adjust sections for better spacing */
   section {
@@ -235,12 +241,17 @@ header {
   }
 
   .container {
-    padding: 0 16px; /* Adjust container padding */
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 @media (min-width: 1024px) {
   .sticky {
     height: 60px; /* Ensure header is consistent on larger screens */
+  }
+  .container {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
