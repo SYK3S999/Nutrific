@@ -1,13 +1,13 @@
 "use client";
 
-import React, { useState, ChangeEvent, FormEvent,useEffect, useRef  } from 'react';
+import React, { useState, ChangeEvent, FormEvent, useEffect } from 'react'; // Removed useRef
 import emailjs from '@emailjs/browser';
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 import { Textarea } from "./ui/textarea"
 import { CardContent, Card } from "./ui/card"
 import { AvatarImage, AvatarFallback, Avatar } from "./ui/avatar"
-import { Apple, ChevronDown ,Carrot, Fish, Salad, Calendar, Phone, Mail, Clock, Shield, ThumbsUp, Award, Dumbbell } from "lucide-react"
+import { Apple, ChevronDown ,Carrot, Fish, Salad, Calendar, Clock, Shield, ThumbsUp, Award, Dumbbell } from "lucide-react"
 import Image from "next/image"
 
 import CustomModal from './ui/customModal';
