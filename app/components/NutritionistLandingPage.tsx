@@ -200,11 +200,11 @@ export default function NutritionistLandingPage() {
           Votre chemin vers une vie plus saine
         </h1>
         <p className="mx-auto max-w-[800px] text-xl md:text-2xl text-gray-200 shadow-text font-regular">
-          Des plans nutritionnels personnalisés et des conseils d'experts pour vous aider à atteindre vos objectifs de santé.
+          Des plans nutritionnels et sportifs personnalisés et des conseils pour vous aider à atteindre vos objectifs de santé.
         </p>
       </div>
       <div className="flex flex-col space-y-6 pt-8 w-full max-w-md mx-auto ">
-  <Button 
+  <Button
     className="bg-green-600 hover:bg-green-700 text-white w-full py-6 text-xl"
     onClick={() => scrollToSection('reservation')}
   >
@@ -277,7 +277,7 @@ export default function NutritionistLandingPage() {
                   <Fish className="h-12 w-12 text-green-600" />
                   <h3 className="text-xl font-bold text-green-700">Consultations individuelles</h3>
                   <p className="text-center text-sm text-green-600">
-                    Des discussions approfondies pour répondre à vos préoccupations de santé uniques et à vos objectifs.
+                  Des plans nutritionnels sur mesure adaptés à vos besoins et objectifs spécifiques + un suivi quotidien et repondre au questions de manière détaillée dans la journée.
                   </p>
                 </CardContent>
               </Card>
@@ -336,7 +336,7 @@ export default function NutritionistLandingPage() {
     <Card className="bg-white">
       <CardContent className="p-6">
         <div className="text-green-600 leading-relaxed space-y-4">
-          <p>• <span className="font-semibold">1er entretien & Bilan général</span> : Je vais avoir besoin d’un maximum d’informations sur toi. Avant de débuter le coaching, je propose un premier entretien avec un bilan général. Cet échange me permettra de mieux comprendre ton passé sportif, tes antécédents médicaux, tes douleurs, ton alimentation, ton mode de vie, etc.</p>
+          <p>• <span className="font-semibold">1er entretien & Bilan général</span> : J'ai besoin d’avoir un maximum d’informations sur toi. Avant de débuter le coaching, je propose un premier entretien avec un bilan général. Cet échange me permettra de mieux comprendre ton passé sportif, tes antécédents médicaux, tes douleurs, ton alimentation, ton mode de vie, etc.</p>
           
           <p>• Suite à l’entretien et au bilan, j’aurai toutes les cartes en main pour te proposer un programme de sport ou de nutrition adapté à tes objectifs. Je te ferai parvenir les grandes lignes de celui-ci quelques jours seulement après notre premier échange.</p>
           
