@@ -593,18 +593,35 @@ export default function NutritionistLandingPage() {
       />
       </main>
       <footer className="w-full py-6 bg-green-50 shadow-md mt-12">
-        <div className="container flex flex-col gap-2 sm:flex-row items-center px-4 md:px-6 mx-auto">
-          <p className="text-xs text-green-600">© 2024 Nutrific. Tous droits réservés.</p>
-          <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-            <a className="text-xs hover:underline underline-offset-4 text-green-600 hover:text-green-700" href="#">
-              Conditions d'utilisation
-            </a>
-            <a className="text-xs hover:underline underline-offset-4 text-green-600 hover:text-green-700" href="#">
-              Politique de confidentialité
-            </a>
-          </nav>
-        </div>
-      </footer>
+  <div className="container flex flex-col sm:flex-row items-center justify-between px-4 md:px-6 mx-auto">
+    <p className="text-xs text-green-600">© 2024 Nutrific. Tous droits réservés.</p>
+    <nav className="flex gap-4 sm:gap-6">
+      <a className="text-xs hover:underline underline-offset-4 text-green-600 hover:text-green-700" href="#">
+        Conditions d'utilisation
+      </a>
+      <a className="text-xs hover:underline underline-offset-4 text-green-600 hover:text-green-700" href="#">
+        Politique de confidentialité
+      </a>
+    </nav>
+    <div className="flex gap-4 mt-4 sm:mt-0">
+      <a href="#" aria-label="Facebook" className="text-green-600 hover:text-green-700 transition-colors duration-300">
+        <svg className="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M22 12c0-5.522-4.477-10-10-10S2 6.478 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.988H7.898v-2.89h2.54v-2.2c0-2.506 1.493-3.89 3.776-3.89 1.095 0 2.238.196 2.238.196v2.464h-1.26c-1.242 0-1.63.772-1.63 1.563v1.867h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+        </svg>
+      </a>
+      <a href="#" aria-label="Twitter" className="text-green-600 hover:text-green-700 transition-colors duration-300">
+        <svg className="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M22.46 6.003c-.77.342-1.597.572-2.47.678a4.29 4.29 0 0 0 1.887-2.369 8.58 8.58 0 0 1-2.73 1.043 4.278 4.278 0 0 0-7.28 3.903 12.138 12.138 0 0 1-8.805-4.465 4.274 4.274 0 0 0 1.323 5.712A4.227 4.227 0 0 1 2.8 9.713v.053a4.28 4.28 0 0 0 3.432 4.192 4.28 4.28 0 0 1-1.926.073 4.28 4.28 0 0 0 3.995 2.97A8.572 8.572 0 0 1 2 18.57a12.092 12.092 0 0 0 6.542 1.918c7.848 0 12.14-6.498 12.14-12.137 0-.185-.004-.37-.012-.554A8.63 8.63 0 0 0 24 5.314a8.44 8.44 0 0 1-2.54.694z"/>
+        </svg>
+      </a>
+      <a href="#" aria-label="Instagram" className="text-green-600 hover:text-green-700 transition-colors duration-300">
+        <svg className="w-5 h-5 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.333 3.608 1.31.973.973 1.245 2.24 1.31 3.607.057 1.267.069 1.647.069 4.851 0 3.204-.012 3.584-.07 4.85-.065 1.367-.337 2.634-1.31 3.608-.975.974-2.241 1.245-3.608 1.31-1.266.057-1.646.069-4.85.069s-3.584-.012-4.851-.07c-1.366-.065-2.633-.336-3.607-1.31-.974-.974-1.246-2.241-1.31-3.608C2.175 15.753 2.163 15.373 2.163 12c0-3.204.012-3.584.07-4.851.063-1.366.335-2.633 1.31-3.607.974-.975 2.24-1.245 3.607-1.31C8.417 2.175 8.796 2.163 12 2.163m0-2.163C8.745 0 8.336.013 7.052.072 5.775.132 4.595.448 3.545 1.498 2.495 2.547 2.18 3.727 2.12 5.004.013 8.336 0 8.745 0 12c0 3.256.013 3.665.072 4.948.06 1.277.375 2.457 1.426 3.506 1.05 1.05 2.23 1.365 3.506 1.426 1.283.059 1.693.072 4.948.072s3.665-.013 4.948-.072c1.277-.061 2.457-.376 3.506-1.426 1.05-1.049 1.365-2.229 1.426-3.506.059-1.283.072-1.693.072-4.948 0-3.256-.013-3.665-.072-4.948-.061-1.277-.376-2.457-1.426-3.506-1.05-1.05-2.229-1.365-3.506-1.426-1.283-.059-1.693-.072-4.948-.072zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.578a1.44 1.44 0 1 1 0-2.88 1.44 1.44 0 0 1 0 2.88z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
     </div>
   )
 }
