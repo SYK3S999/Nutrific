@@ -275,7 +275,7 @@ export default function NutritionistLandingPage() {
               <Card className="bg-green-50 hover:shadow-md transition-shadow">
                 <CardContent className="flex flex-col items-center space-y-2 p-6">
                   <Fish className="h-12 w-12 text-green-600" />
-                  <h3 className="text-xl font-bold text-green-700">Consultations individuelles</h3>
+                  <h3 className="text-xl font-bold text-green-700">Plans de repas personnalisés + suivi quotidien</h3>
                   <p className="text-center text-sm text-green-600">
                   Des plans nutritionnels sur mesure adaptés à vos besoins et objectifs spécifiques + un suivi quotidien et repondre au questions de manière détaillée dans la journée.
                   </p>
