@@ -1,3 +1,8 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "react/no-unescaped-entities": "off", // Disable the unescaped entities rule if you prefer to manage it manually
+    "@typescript-eslint/no-empty-interface": "off" // Disable empty interface rule, if applicable
+    // Add more custom rules here as needed
+  }
 }

@@ -4,13 +4,11 @@ import React, { useState, ChangeEvent, FormEvent,useEffect, useRef  } from 'reac
 import emailjs from '@emailjs/browser';
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
-import { Textarea } from "./ui/texarea"
+import { Textarea } from "./ui/textarea"
 import { CardContent, Card } from "./ui/card"
 import { AvatarImage, AvatarFallback, Avatar } from "./ui/avatar"
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table"
 import { Apple, ChevronDown ,Carrot, Fish, Salad, Calendar, Phone, Mail, Clock, Shield, ThumbsUp, Award, Dumbbell } from "lucide-react"
 import Image from "next/image"
-import { X } from 'lucide-react';
 
 import CustomModal from './ui/customModal';
 
