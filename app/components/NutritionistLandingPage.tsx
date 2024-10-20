@@ -200,7 +200,7 @@ export default function NutritionistLandingPage() {
           Votre chemin vers une vie plus saine
         </h1>
         <p className="mx-auto max-w-[800px] text-xl md:text-2xl text-gray-200 shadow-text font-regular">
-          Des plans nutritionnels et sportifs personnalisés et des conseils pour vous aider à atteindre vos objectifs de santé.
+          Des programmes nutritionnels et sportifs personnalisés et des conseils pour vous aider à atteindre vos objectifs de santé.
         </p>
       </div>
       <div className="flex flex-col space-y-6 pt-8 w-full max-w-md mx-auto ">
@@ -239,7 +239,7 @@ export default function NutritionistLandingPage() {
           À propos de moi
         </h2>
         <p className="text-green-700 md:text-lg leading-relaxed">
-          Je m'appelle <span className="font-bold">Qatar'ennada MESSIOUD</span>, nutritionniste diététicienne et coach en fitness et musculation en ligne, passionnée par mon métier. Diplômée de l'Institut National de l'Alimentation et de la Nutrition (INATAA) et certifiée par l'Académie Internationale pour la Formation et le Développement des Capacités Humaines (IACHCD), je suis engagée à fournir des services de haute qualité en toute sécurité.
+          Je m'appelle <span className="font-bold">Qatar'ennada MESSIOUD</span>, nutritionniste diététicienne et coach de fitness et musculation en ligne, passionnée par mon métier. Diplômée de l'Institut National de l'Alimentation et de la Nutrition (INATAA) et certifiée par l'Académie Internationale pour la Formation et le Développement des Capacités Humaines (IACHCD), je suis engagée à fournir des services de haute qualité en toute sécurité.
         </p>
         <p className="text-green-700 md:text-lg leading-relaxed">
           Mes qualifications me permettent de suivre vos progrès, d’adapter vos entraînements et habitudes alimentaires pour atteindre vos objectifs. Je vous accompagne avec des conseils santé, alimentaires et sportifs personnalisés, en consultation à distance du samedi au jeudi.
@@ -266,18 +266,18 @@ export default function NutritionistLandingPage() {
               <Card className="bg-green-50 hover:shadow-md transition-shadow">
                 <CardContent className="flex flex-col items-center space-y-2 p-6">
                   <Apple className="h-12 w-12 text-green-600" />
-                  <h3 className="text-xl font-bold text-green-700">Plans de repas personnalisés</h3>
+                  <h3 className="text-xl font-bold text-green-700">Programmes de repas personnalisés</h3>
                   <p className="text-center text-sm text-green-600">
-                    Des plans nutritionnels sur mesure adaptés à vos besoins et objectifs spécifiques.
+                    Des programmes nutritionnels sur mesure adaptés à vos besoins et objectifs spécifiques.
                   </p>
                 </CardContent>
               </Card>
               <Card className="bg-green-50 hover:shadow-md transition-shadow">
                 <CardContent className="flex flex-col items-center space-y-2 p-6">
                   <Fish className="h-12 w-12 text-green-600" />
-                  <h3 className="text-xl font-bold text-green-700">Plans de repas personnalisés + suivi quotidien</h3>
+                  <h3 className="text-xl font-bold text-green-700">Programmes de repas personnalisés + suivi quotidien</h3>
                   <p className="text-center text-sm text-green-600">
-                  Des plans nutritionnels sur mesure adaptés à vos besoins et objectifs spécifiques + un suivi quotidien et repondre au questions de manière détaillée dans la journée.
+                  Des programmes nutritionnels sur mesure adaptés à vos besoins et objectifs spécifiques + un suivi quotidien et repondre au questions de manière détaillée dans la journée.
                   </p>
                 </CardContent>
               </Card>
@@ -436,7 +436,7 @@ export default function NutritionistLandingPage() {
             </Avatar>
             <div>
               <h3 className="text-lg font-semibold text-green-700">Madame S</h3>
-              <p className="text-sm text-green-600">Client pendant 3 mois</p>
+              <p className="text-sm text-green-600">Cliente pendant 3 mois</p>
             </div>
           </div>
           <p className="text-green-600 mb-4">
@@ -456,11 +456,11 @@ export default function NutritionistLandingPage() {
         <CardContent className="p-6">
           <div className="flex items-center space-x-4 mb-4">
             <Avatar className="animate-fade-in-right">
-              <AvatarImage src="/assets/profile3.jpg" alt="Madame C" />
-              <AvatarFallback>MC</AvatarFallback>
+              <AvatarImage src="/assets/profile3.jpg" alt="Madame N" />
+              <AvatarFallback>MN</AvatarFallback>
             </Avatar>
             <div>
-              <h3 className="text-lg font-semibold text-green-700">Madame C</h3>
+              <h3 className="text-lg font-semibold text-green-700">Madame N</h3>
               <p className="text-sm text-green-600">Cliente pendant 2 mois</p>
             </div>
           </div>
