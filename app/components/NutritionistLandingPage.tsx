@@ -597,9 +597,11 @@ export default function NutritionistLandingPage() {
         onChange={handleInputChange}
         required
       >
-        <option value="">Choisissez le type de consultation</option>
-        <option value="consultation unique">Consultation unique</option>
-        <option value="forfait suivi intensif">Forfait suivi intensif</option>
+        <option value="">Choisissez votre forfait</option>
+        <option value="consultation unique">Programmme alimentaire uniquement</option>
+        <option value="forfait suivi intensif">Programme sportif uniquement        </option>
+        <option value="consultation unique">Consultation initiale + suivi quotidien</option>
+        <option value="forfait suivi intensif">Consultation initiale + suivi quotidien</option>
       </Select>
       <Textarea 
         placeholder="Votre Message (optionnel)" 
