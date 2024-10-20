@@ -598,10 +598,8 @@ export default function NutritionistLandingPage() {
         required
       >
         <option value="">Choisissez votre forfait</option>
-        <option value="consultation unique">Programmme alimentaire uniquement</option>
-        <option value="forfait suivi intensif">Programme sportif uniquement        </option>
-        <option value="consultation unique">Consultation initiale + suivi quotidien</option>
-        <option value="forfait suivi intensif">Consultation initiale + suivi quotidien</option>
+        <option value="consultation unique">Consultation unique</option>
+        <option value="forfait suivi intensif">forfait suivi intensif</option>
       </Select>
       <Textarea 
         placeholder="Votre Message (optionnel)" 
