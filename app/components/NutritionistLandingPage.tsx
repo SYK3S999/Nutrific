@@ -530,11 +530,11 @@ export default function NutritionistLandingPage() {
           <ul className="space-y-4">
             <li className="flex justify-between items-center text-green-600">
               <span>Programme alimentaire uniquement </span>
-              <span className="text-lg font-bold text-green-700">1500 da</span>
+              <span className="text-lg font-bold text-green-700">3500 da</span>
             </li>
             <li className="flex justify-between items-center text-green-600">
               <span>Programme sportif uniquement</span>
-              <span className="text-lg font-bold text-green-700">1500 da</span>
+              <span className="text-lg font-bold text-green-700">3500 da</span>
             </li>
           </ul>
         </CardContent>
@@ -547,11 +547,11 @@ export default function NutritionistLandingPage() {
           <ul className="space-y-4">
             <li className="flex justify-between items-center text-green-600">
               <span>Consultation initiale + suivi quotidien (nutrition ou sport) (1 mois)</span>
-              <span className="text-lg font-bold text-green-700">2500 da</span>
+              <span className="text-lg font-bold text-green-700">6000 da</span>
             </li>
             <li className="flex justify-between items-center text-green-600">
               <span> Consultation initiale + suivi quotidien (3 mois) (nutrition ou sport)</span>
-              <span className="text-lg font-bold text-green-700">6000 da</span>
+              <span className="text-lg font-bold text-green-700">14000 da</span>
             </li>
           </ul>
         </CardContent>
