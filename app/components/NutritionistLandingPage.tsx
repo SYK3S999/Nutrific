@@ -517,48 +517,7 @@ export default function NutritionistLandingPage() {
     </div>
   </div>
 </section>
-<section id="tarifs" className="w-full py-12 md:py-24 lg:py-32 bg-white">
-  <div className="container px-4 md:px-6 mx-auto">
-    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center text-green-700">
-      Tarifs
-    </h2>
-    <div className="grid gap-8 md:grid-cols-2">
-      {/* Consultation unique card */}
-      <Card className="bg-green-50 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl rounded-lg">
-        <CardContent className="p-8">
-          <h3 className="text-2xl font-bold text-green-700 mb-6 text-center">Consultation unique</h3>
-          <ul className="space-y-4">
-            <li className="flex justify-between items-center text-green-600">
-              <span>Programme alimentaire uniquement </span>
-              <span className="text-lg font-bold text-green-700">3500 da</span>
-            </li>
-            <li className="flex justify-between items-center text-green-600">
-              <span>Programme sportif uniquement</span>
-              <span className="text-lg font-bold text-green-700">3500 da</span>
-            </li>
-          </ul>
-        </CardContent>
-      </Card>
 
-      {/* Forfait suivi intensif card */}
-      <Card className="bg-green-50 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl rounded-lg">
-        <CardContent className="p-8">
-          <h3 className="text-2xl font-bold text-green-700 mb-6 text-center">Forfait suivi intensif</h3>
-          <ul className="space-y-4">
-            <li className="flex justify-between items-center text-green-600">
-              <span>Consultation initiale + suivi quotidien (nutrition ou sport) (1 mois)</span>
-              <span className="text-lg font-bold text-green-700">6000 da</span>
-            </li>
-            <li className="flex justify-between items-center text-green-600">
-              <span> Consultation initiale + suivi quotidien (3 mois) (nutrition ou sport)</span>
-              <span className="text-lg font-bold text-green-700">14000 da</span>
-            </li>
-          </ul>
-        </CardContent>
-      </Card>
-    </div>
-  </div>
-</section>
         <section id="reservation" className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
       <div className="container px-4 md:px-6 mx-auto">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center text-green-700">
